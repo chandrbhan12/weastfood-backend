@@ -1,0 +1,31 @@
+{
+  "name": "foodlink-backend",
+  "version": "1.0.0",
+  "description": "FoodLink Backend API",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "cross-env PORT=5000 node server.js",
+    "dev": "cross-env PORT=5000 nodemon server.js"
+  },
+  "keywords": [
+    "foodlink",
+    "api",
+    "backend"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.5.0",
+    "socket.io": "^4.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "cross-env": "^7.0.3"
+  }
+}
